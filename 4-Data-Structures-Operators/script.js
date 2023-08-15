@@ -71,9 +71,9 @@ document.querySelector('button').addEventListener('click', function () {
 // Working With Strings - Part 3
 // Split and join
 console.log('a+very+nice+string'.split('+'));
-console.log('Jonas Schmedtmann'.split(' '));
+console.log('Eren Isci'.split(' '));
 
-const [firstName, lastName] = 'Jonas Schmedtmann'.split(' ');
+const [firstName, lastName] = 'Eren Isci'.split(' ');
 
 const newName = ['Mr.', firstName, lastName.toUpperCase()].join(' ');
 console.log(newName);
@@ -90,12 +90,12 @@ const capitalizeName = function (name) {
 };
 
 capitalizeName('jessica ann smith davis');
-capitalizeName('jonas schmedtmann');
+capitalizeName('eren isci');
 
 // Padding
 const message = 'Go to gate 23!';
 console.log(message.padStart(20, '+').padEnd(30, '+'));
-console.log('Jonas'.padStart(20, '+').padEnd(30, '+'));
+console.log('Eren'.padStart(20, '+').padEnd(30, '+'));
 
 const maskCreditCard = function (number) {
   const str = number + '';
@@ -127,15 +127,15 @@ console.log(airline.toLowerCase());
 console.log(airline.toUpperCase());
 
 // Fix capitalization in name
-const passenger = 'jOnAS'; // Jonas
+const passenger = 'eReN'; // Eren
 const passengerLower = passenger.toLowerCase();
 const passengerCorrect =
   passengerLower[0].toUpperCase() + passengerLower.slice(1);
 console.log(passengerCorrect);
 
 // Comparing emails
-const email = 'hello@jonas.io';
-const loginEmail = '  Hello@Jonas.Io \n';
+const email = 'hello@eren.io';
+const loginEmail = '  Hello@Eren.Io \n';
 
 // const lowerEmail = loginEmail.toLowerCase();
 // const trimmedEmail = lowerEmail.trim();
