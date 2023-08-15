@@ -119,7 +119,7 @@ planesInLine(3);
 planesInLine(12);
 */
 
-/* 
+/*
 // Working With Strings - Part 2
 const airline = 'TAP Air Portugal';
 
@@ -129,8 +129,7 @@ console.log(airline.toUpperCase());
 // Fix capitalization in name
 const passenger = 'eReN'; // Eren
 const passengerLower = passenger.toLowerCase();
-const passengerCorrect =
-  passengerLower[0].toUpperCase() + passengerLower.slice(1);
+const passengerCorrect = passengerLower[0].toUpperCase() + passengerLower.slice(1);
 console.log(passengerCorrect);
 
 // Comparing emails
@@ -148,11 +147,10 @@ const priceGB = '288,97£';
 const priceUS = priceGB.replace('£', '$').replace(',', '.');
 console.log(priceUS);
 
-const announcement =
-  'All passengers come to boarding door 23. Boarding door 23!';
+const announcement = 'All passengers come to boarding door 23. Boarding door 23!';
 
 console.log(announcement.replace('door', 'gate'));
-// console.log(announcement.replaceAll('door', 'gate'));
+console.log(announcement.replaceAll('door', 'gate'));
 console.log(announcement.replace(/door/g, 'gate'));
 
 // Booleans
