@@ -124,7 +124,7 @@ const updateUI = curAcc => {
   calcDisplaySummary(curAcc);
 };
 
-// Evemt Handler
+// Event Handler
 let currentAccount;
 
 btnLogin.addEventListener('click', e => {
